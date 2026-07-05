@@ -22,6 +22,51 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 12>;
+        };
+
+        shift-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <11 12>;
+        };
+
+        scroll {
+            bindings = <&lt 5 N5>;
+            key-positions = <19 20>;
+        };
+
+        chrome-tab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <2 3>;
+        };
+
+        browsertab1 {
+            bindings = <&kp LS(LC(TAB))>;
+            key-positions = <1 2>;
+        };
+
+        browsertabESC {
+            bindings = <&kp LC(W)>;
+            key-positions = <3 4>;
+        };
+
+        taskManager {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <30 31 32>;
+        };
+
+        LINEenter {
+            bindings = <&kp RA(ENTER)>;
+            key-positions = <18 19>;
+        };
+
+        WordCommand {
+            bindings = <&kp RS(LS(F9))>;
+            key-positions = <18 19 20>;
+        };
     };
 
     macros {
