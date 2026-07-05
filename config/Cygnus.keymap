@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5                        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &trans  &trans  &trans  &trans   &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&kp F12  &trans  &trans  &trans  &trans   &trans      &trans   &trans                          &kp F12
+&kp F1   &kp F2  &kp F3    &kp UP_ARROW  &kp F4                                  &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&kp F6   &kp F7  &kp LEFT  &kp DOWN      &kp RIGHT  &kp UP_ARROW      &kp SLASH  &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp F11  &trans  &kp END   &trans        &kp HOME   &kp DOWN          &kp EQUAL  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK
+&kp F12  &trans  &trans    &trans        &trans     &trans            &kt LEFT   &kp RIGHT                                               &kp PERCENT
             >;
         };
 
