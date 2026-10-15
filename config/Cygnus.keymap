@@ -58,14 +58,14 @@
             key-positions = <30 31 32>;
         };
 
-        LINEenter {
-            bindings = <&kp RA(ENTER)>;
-            key-positions = <18 19>;
-        };
-
         WordCommand {
             bindings = <&kp RS(LS(F9))>;
             key-positions = <18 19 20>;
+        };
+
+        Line {
+            bindings = <&kp RA(ENTER)>;
+            key-positions = <18 19>;
         };
     };
 
