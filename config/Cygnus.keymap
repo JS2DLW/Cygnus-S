@@ -64,7 +64,7 @@
         };
 
         LINE {
-            bindings = <&kp RA(ENTER)>;
+            bindings = <&kp RA(LA(ENTER))>;
             key-positions = <18 19>;
         };
     };
